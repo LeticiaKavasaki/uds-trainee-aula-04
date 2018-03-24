@@ -41,7 +41,7 @@ export default {
       return 'Negativo';
     },
     NumeroPrimo() {
-
+      if (this.valor)
     }
   },
 };
