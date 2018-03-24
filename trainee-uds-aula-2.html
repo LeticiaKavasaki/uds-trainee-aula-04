@@ -1,0 +1,135 @@
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <title>Leticia</title>
+  </head>
+  <body>
+    <h1>Oi!</h1>
+    <script>
+    //   var nome = "Leticia Cristina Kavasaki de Oliveira";
+    //   var idade = 22;
+    //   var sexoFeminino = true;
+    //   var peso = 89.60;
+    //  alert("Olá seu nome é " + nome + ", e você tem " + idade + "anos!");
+    //  if (idade <= 18){
+    //     alert("Novinho(A)");
+    //   }
+    //   if (idade > 18 && idade <= 30){
+    //      alert("Tiozinho(a)");
+    //   } else {
+    //     alert("Tiozão(ona)");
+    //   }
+    // var date = new Date().getDay();
+    //   switch (date) {
+    //     case 0:
+    //       alert("Domingo");
+    //     case 1:
+    //       alert("Segunda");
+    //     case 2:
+    //       alert("Terça");
+    //     case 3:
+    //       alert("Quarta");
+    //     case 4:
+    //       alert("Quinta");
+    //     case 5:
+    //       alert("Sexta");
+    //     case 6:
+    //       alert("Sabado");
+    //   }
+      // function converter(decimal){
+      //   console.log (decimal);
+      //   switch (decimal) {
+      //     case 1:
+      //       return "I";
+      //     case 2:
+      //       return "II";
+      //     case 3:
+      //       return "III";
+      //     case 4:
+      //       return "IV";
+      //     case 5:
+      //       return "V";
+      //     case 6:
+      //       return "VI";
+      //     case 7:
+      //       return "VII";
+      //     case 8:
+      //       return "VIII";
+      //     case 9:
+      //       return "IX";
+      //     case 10:
+      //       return "X";
+      //     default:
+      //       return "Erro - 9396";
+      //   }
+      // }
+      //   var decimal = prompt("Digite um numero de 1 a 10");
+      //   decimal = parseInt(decimal);
+      //   var resultado = converter(decimal);
+      //   alert(resultado);
+      // for(var i =1; i<= 10; i++){
+      //     var convertendofor = converter(i);
+      //     alert(convertendofor);
+      // }
+      // var j = 1;
+      // while (j<=10) {
+      //   var convertendofor = converter(j);
+      //   alert(convertendofor);
+      //   j++;
+      // }
+      // for(var i =10; i >= 1; i--){
+      //     var convertendofor = converter(i);
+      //     alert(convertendofor);
+      // }
+      // var dadosPessoais = [];
+      // dadosPessoais.push("Leticia Kavasaki");
+      // dadosPessoais.push("08006007070");
+      // var endereco = [];
+      // endereco.push("89815-000");
+      // endereco.push("R. Calopsita");
+      // endereco.push("29");
+      // endereco.push("casa");
+      // endereco.push("jd. carlos");
+      // endereco.push("Aquidaban");
+      // endereco.push("Paraná");
+      // dadosPessoais.push(endereco);
+      // console.log(dadosPessoais);
+      // dadosPessoais [0] = "Leticia Cristina Kavasaki de Oliveira";
+      // dadosPessoais.splice(1,1);
+      // console.log(dadosPessoais);
+      // var MostrarMinhasInformações = function (){
+      //   alert("Seu nome é" + this.Nome + " " + this.SobreNome + " " );
+      // }
+      // var nome = "Leticia Cristina "
+      // var sobreNome = "Kavasaki de Oliveira"
+      // var endereco = {
+      //   Cep: "89815-000",
+      //   Rua: "Rua Calopsita",
+      //   NumeroCasa: "29",
+      //   Complemento: "casa",
+      //   Bairro: "Jd. Carlos",
+      //   Cidade: "Aquidaban",
+      //   Estado: "Paraná",
+      // }
+      var dadosPessoais = {
+        Nome: "Leticia Cristina ",
+        SobreNome: "Kavasaki de Oliveira",
+        Endereco: {
+          Cep: "89815-000",
+          Rua: "Rua Calopsita",
+          NumeroCasa: "29",
+          Complemento: "casa",
+          Bairro: "Jd. Carlos",
+          Cidade: "Aquidaban",
+          Estado: "Paraná",
+        },
+        MostrarMinhasInformações : function (){
+          alert("Seu nome é" + this.Nome + " " + this.SobreNome + "\nSeu enderco é " + this.Endereco.Cep + " " + this.Endereco.Rua + " " +
+          this.Endereco.NumeroCasa + " " + this.Endereco.Complemento + " " + this.Endereco.Bairro + " " + this.Endereco.Cidade + " " + this.Endereco.Estado );
+        },
+      }
+
+      dadosPessoais.MostrarMinhasInformações();
+    </script>
+  </body>
+</html>
